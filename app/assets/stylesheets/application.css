@@ -24,9 +24,13 @@ body {
   display: block;
 }
 
-head {
-    text-align: center
+ol, ul, td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
 }
+
 
 h1{
   display: block;
@@ -34,24 +38,18 @@ h1{
     font-weight: bold;
 }
 
- .comment{
-  display: block;
-  margin: 33px;
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
 }
 
-.link{
-  margin: 33px;
-  color: #666;
-}
-
-.link:hover{
-  background-color: black;
-}
-
-a:visited {
-    color: #666;
+th{
+  text-align: center;
 }
 
 h2{
   font-size: 1.5em;
+  margin:  33px;
 }
+
